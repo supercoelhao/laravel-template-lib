@@ -72,7 +72,7 @@ Depois execute:
 ```bash
 php artisan migrate
 ```
-
+ teste
 ### 3. Criar o Controller
 
 ```bash

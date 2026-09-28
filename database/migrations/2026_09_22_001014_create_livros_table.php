@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
 
             $table->string('titulo');
-            $table->string('autor');
+            $table->string('autor')->default('Desconhecido');
             $table->integer('ano_publicacao');
             $table->string('isbn')->nullable();
 

@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('autor')->default('Desconhecido');
             $table->integer('ano_publicacao');
             $table->string('isbn')->nullable();
-
             $table->timestamps();
         });
     }
